@@ -15,7 +15,7 @@
 ![Customer insufficient](images/bamazon_customer_insufficient.png) 
 
 ###The customer then tries again to buy item 9 and instead buys an amount that is in stock. In this case, the customer purchases 6 units and has a total sale of $150 which goes through.
-![Customer sale]images/bamazon_customer_sale.png)
+![Customer sale](images/bamazon_customer_sale.png)
 
 ###The customer is then prompted if they would like to continue shopping. The customer chooses Yes and the list of the inventory repopulates with the updated list including reduced stock of the item that was purchased.
 ![Customer stock](images/bamazon_customer_stock_change.png)
