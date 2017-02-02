@@ -1,10 +1,12 @@
 # Bamazon
 
-##This is a node app with an Amazon-like storefront using MYSQL.
+### This is a node app with an Amazon-like storefront using MYSQL.
 
-###The app can take in orders from customers and deplete stock from the store's inventory. 
+### The app can take in orders from customers and deplete stock from the store's inventory. 
 
-###The manager can view inventory available for sale, view low inventory, add to the inventory stock, and add a new item to the inventory list.
+### The manager can view inventory available for sale, view low inventory, add to the inventory stock, and add a new item to the inventory list.
+
+## Instructions and Screenshots
 
 ###Below are the screen shots and explanations of how the app works
 
@@ -35,4 +37,27 @@
 ###The manager chooses to add a new item to the inventory for sale. In this case, a Spider-man costume was added for $24.99 with 25 units. 
 ![Manager adding product](images/bamazon_manager_addproduct.png)
 
+# Technologies
+
+* [Node.js](https://nodejs.org/en/) - evented I/O for the backend
+* [MySQL](https://www.mysql.com/) - popular open-source database
+* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - lightweight, interpreted, programming language with first-class functions
+* [Inquirer](https://www.npmjs.com/package/inquirer) - npm package of common command line user interfaces
+
+
+# Installation
+
+Download/fork the repository [Bamazon](https://github.com/ychang21/Bamazon).
+
+Set up a MySQL database and table using the ```schema.sql``` in the directory in MySQL Workbench.
+
+NPM install the dependencies in the directory.
+
+In the command line, run node BamazonCustomer.js or BamazonManager.js.
+
+```sh
+$ cd Bamazon
+$ npm install
+$ node BamazonCustomer.js
+```
 
